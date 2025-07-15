@@ -1,0 +1,21 @@
+[
+    {
+      "language": "html5",
+      "level": 1,
+      "type": "multiple_choice",
+      "question": "¿Qué es HTML5?",
+      "options": ["Lenguaje de marcado para la creación de páginas web", "Lenguaje de programación para la creación de páginas web", "Lenguaje de estilos para la creación de páginas web", "Lenguaje de programación para la creación de aplicaciones móviles"],
+      "answer": "Lenguaje de marcado para la creación de páginas web",
+      "explanation": "HTML5 es un lenguaje de marcado para la creación de páginas web. Es la quinta versión del lenguaje de marcado HTML."
+    },
+    {
+      "language": "html5",
+      "level": 2,
+      "type": "multiple_choice",
+      "question": "¿Qué es CSS?",
+      "options": ["Lenguaje de estilos para la creación de páginas web", "Lenguaje de programación para la creación de páginas web", "Lenguaje de marcado para la creación de páginas web", "Lenguaje de programación para la creación de aplicaciones móviles"],
+      "answer": "Lenguaje de estilos para la creación de páginas web",
+      "explanation": "CSS es un lenguaje de estilos para la creación de páginas web. Es la tercera versión del lenguaje de estilos CSS."
+    }
+  ]
+  
