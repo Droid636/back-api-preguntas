@@ -1,13 +1,27 @@
 {
   "name": "back-native",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed": "node scripts/seedDatabase.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["api", "questions", "react-native", "nodejs"],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "API para preguntas de programación para React Native",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
