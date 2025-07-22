@@ -36,7 +36,7 @@ app.use('/api/questions', questionRoutes);
 
 // Ruta de prueba
 app.get('/', (req, res) => {
-  res.json({ message: 'API de Preguntas funcionando correctamente' });
+  res.json({ message: '🚀:::API de Preguntas funcionando correctamente:::🚀' });
 });
 
 // Middleware para manejo de errores
