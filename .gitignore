@@ -17,4 +17,3 @@ yarn-error.log*
 Thumbs.db
 
 # Otros
-/scripts/seedDatabase.js 
