@@ -4,6 +4,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const questionRoutes = require('./routes/questionRoutes');
+const introductionRoutes = require('./routes/introductionRoutes');
 
 dotenv.config();
 const connectDB = require('./config/db');
@@ -33,6 +34,7 @@ app.use((req, res, next) => {
 
 // Rutas
 app.use('/api/questions', questionRoutes);
+app.use('/api/introductions', introductionRoutes);
 
 // Ruta de prueba
 app.get('/', (req, res) => {
