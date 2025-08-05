@@ -1,5 +1,6 @@
 [
-  {
+   /* ejemplo de pregunta
+   {
     "language": "html5",
     "level": 1,
     "type": "multiple_choice",
@@ -13,160 +14,14 @@
     "answer": "Lenguaje de marcado para la creación de páginas web",
     "explanation": "HTML5 es un lenguaje de marcado para la creación de páginas web. Es la quinta versión del lenguaje de marcado HTML."
   },
-  {
-    "language": "html5",
-    "level": 2,
-    "type": "multiple_choice",
-    "question": "¿Cuál es la etiqueta correcta para crear un enlace en HTML5?",
-    "options": [
-      "<link>",
-      "<a>",
-      "<href>",
-      "<url>"
-    ],
-    "answer": "<a>",
-    "explanation": "La etiqueta <a> se utiliza para crear enlaces en HTML5. El atributo href especifica la URL del enlace."
-  },
-  {
-    "language": "css",
-    "level": 1,
-    "type": "multiple_choice",
-    "question": "¿Qué es CSS?",
-    "options": [
-      "Lenguaje de estilos para la creación de páginas web",
-      "Lenguaje de programación para la creación de páginas web",
-      "Lenguaje de marcado para la creación de páginas web",
-      "Lenguaje de programación para la creación de aplicaciones móviles"
-    ],
-    "answer": "Lenguaje de estilos para la creación de páginas web",
-    "explanation": "CSS es un lenguaje de estilos para la creación de páginas web."
-  },
-  {
-    "language": "css",
-    "level": 2,
-    "type": "multiple_choice",
-    "question": "¿Cuál es la propiedad CSS para cambiar el color del texto?",
-    "options": [
-      "text-color",
-      "color",
-      "font-color",
-      "text-style"
-    ],
-    "answer": "color",
-    "explanation": "La propiedad 'color' en CSS se utiliza para cambiar el color del texto."
-  },
-  {
-    "language": "javascript",
-    "level": 1,
-    "type": "multiple_choice",
-    "question": "¿Qué es JavaScript?",
-    "options": [
-      "Un lenguaje de programación interpretado",
-      "Un lenguaje de marcado",
-      "Un lenguaje de estilos",
-      "Un framework de React"
-    ],
-    "answer": "Un lenguaje de programación interpretado",
-    "explanation": "JavaScript es un lenguaje de programación interpretado que se ejecuta en el navegador."
-  },
-  {
-    "language": "javascript",
-    "level": 2,
-    "type": "multiple_choice",
-    "question": "¿Cómo se declara una variable en JavaScript?",
-    "options": [
-      "var nombre = valor",
-      "variable nombre = valor",
-      "let nombre = valor",
-      "const nombre = valor",
-      "Todas las anteriores"
-    ],
-    "answer": "Todas las anteriores",
-    "explanation": "En JavaScript se pueden declarar variables usando var, let y const. Var es la forma más antigua, let y const son más modernas."
-  },
-  {
-    "language": "javascript",
-    "level": 3,
-    "type": "multiple_choice",
-    "question": "¿Qué es una función flecha en JavaScript?",
-    "options": [
-      "Una función que solo puede usar flechas como parámetros",
-      "Una sintaxis más corta para escribir funciones",
-      "Una función que solo funciona con arrays",
-      "Una función que solo puede retornar números"
-    ],
-    "answer": "Una sintaxis más corta para escribir funciones",
-    "explanation": "Las funciones flecha (arrow functions) son una sintaxis más concisa para escribir funciones en JavaScript."
-  },
-  {
-    "language": "react",
-    "level": 1,
-    "type": "multiple_choice",
-    "question": "¿Qué es React?",
-    "options": [
-      "Una biblioteca de JavaScript para construir interfaces de usuario",
-      "Un framework de JavaScript",
-      "Un lenguaje de programación",
-      "Un sistema de gestión de bases de datos"
-    ],
-    "answer": "Una biblioteca de JavaScript para construir interfaces de usuario",
-    "explanation": "React es una biblioteca de JavaScript desarrollada por Facebook para construir interfaces de usuario."
-  },
-  {
-    "language": "react",
-    "level": 2,
-    "type": "multiple_choice",
-    "question": "¿Qué es un componente en React?",
-    "options": [
-      "Una función o clase que retorna JSX",
-      "Un archivo CSS",
-      "Un archivo de configuración",
-      "Una base de datos"
-    ],
-    "answer": "Una función o clase que retorna JSX",
-    "explanation": "Un componente en React es una función o clase que retorna JSX y puede ser reutilizado en la aplicación."
-  },
-  {
-    "language": "react",
-    "level": 3,
-    "type": "multiple_choice",
-    "question": "¿Qué es el hook useState en React?",
-    "options": [
-      "Un hook para manejar el estado local en componentes funcionales",
-      "Un hook para manejar efectos secundarios",
-      "Un hook para manejar el contexto",
-      "Un hook para manejar las referencias"
-    ],
-    "answer": "Un hook para manejar el estado local en componentes funcionales",
-    "explanation": "useState es un hook que permite agregar estado local a componentes funcionales en React."
-  },
-  {
-    "language": "python",
-    "level": 1,
-    "type": "multiple_choice",
-    "question": "¿Qué es Python?",
-    "options": [
-      "Un lenguaje de programación de alto nivel",
-      "Un sistema operativo",
-      "Un editor de código",
-      "Un framework web"
-    ],
-    "answer": "Un lenguaje de programación de alto nivel",
-    "explanation": "Python es un lenguaje de programación de alto nivel, interpretado y de propósito general."
-  },
-  {
-    "language": "python",
-    "level": 2,
-    "type": "multiple_choice",
-    "question": "¿Cómo se declara una variable en Python?",
-    "options": [
-      "var nombre = valor",
-      "let nombre = valor",
-      "nombre = valor",
-      "const nombre = valor"
-    ],
-    "answer": "nombre = valor",
-    "explanation": "En Python, las variables se declaran simplemente asignando un valor sin necesidad de palabras clave como var o let."
-  }
+   */ 
+  //inicio cheko
+  //fin cheko
+  //inicio armando
+  //fin armando
+  //inicio esmeralda
+  //fin esmeralda
+  //inicio bryan
+  //fin bryan
 ]
   
