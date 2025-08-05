@@ -1,27 +1,4 @@
 [
-   /* ejemplo de pregunta
-   {
-    "language": "html5",
-    "level": 1,
-    "type": "multiple_choice",
-    "question": "¿Qué es HTML5?",
-    "options": [
-      "Lenguaje de marcado para la creación de páginas web",
-      "Lenguaje de programación para la creación de páginas web",
-      "Lenguaje de estilos para la creación de páginas web",
-      "Lenguaje de programación para la creación de aplicaciones móviles"
-    ],
-    "answer": "Lenguaje de marcado para la creación de páginas web",
-    "explanation": "HTML5 es un lenguaje de marcado para la creación de páginas web. Es la quinta versión del lenguaje de marcado HTML."
-  },
-   */ 
-  //inicio cheko
-  //fin cheko
-  //inicio armando
-  //fin armando
-  //inicio esmeralda
-  //fin esmeralda
-  //inicio bryan
   {
     "language": "css",
     "level": 1,
@@ -162,6 +139,5 @@
     "answer": "background-color",
     "explanation": "La propiedad background-color se utiliza para cambiar el color de fondo de un elemento."
   }
-  //fin bryan
 ]
   
