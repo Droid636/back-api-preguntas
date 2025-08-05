@@ -418,6 +418,189 @@
     ],
     "answer": "background-color",
     "explanation": "La propiedad background-color se utiliza para cambiar el color de fondo de un elemento."
+  },
+  
+  {
+    "language": "javascript",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué palabra clave se utiliza para declarar una variable en JavaScript?",
+    "options": ["var", "int", "define", "declare"],
+    "answer": "var",
+    "explanation": "La palabra clave 'var' se utiliza para declarar variables en JavaScript (aunque también existen 'let' y 'const')."
+  },
+  {
+    "language": "javascript",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Cuál de los siguientes valores es un tipo de dato primitivo?",
+    "options": ["object", "function", "number", "array"],
+    "answer": "number",
+    "explanation": "Los tipos primitivos incluyen number, string, boolean, null, undefined y symbol."
+  },
+  {
+    "language": "javascript",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué operador se utiliza para concatenar cadenas en JavaScript?",
+    "options": ["+", "&", ".", "concat"],
+    "answer": "+",
+    "explanation": "El operador '+' se utiliza para concatenar cadenas en JavaScript."
+  },
+  {
+    "language": "javascript",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Cómo se escribe un comentario de una línea en JavaScript?",
+    "options": ["<!-- comentario -->", "// comentario", "# comentario", "** comentario **"],
+    "answer": "// comentario",
+    "explanation": "Los comentarios de una línea en JavaScript se escriben con doble barra diagonal: //"
+  },
+  {
+    "language": "javascript",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el resultado de 2 + '2' en JavaScript?",
+    "options": ["4", "22", "NaN", "undefined"],
+    "answer": "22",
+    "explanation": "JavaScript convierte el número 2 a cadena y concatena, resultando en '22'."
+  },
+  {
+    "language": "javascript",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la diferencia entre 'let' y 'var'?",
+    "options": ["let tiene alcance de función, var no", "var es más seguro que let", "let tiene alcance de bloque, var tiene alcance de función", "no hay diferencia"],
+    "answer": "let tiene alcance de bloque, var tiene alcance de función",
+    "explanation": "La principal diferencia es el alcance: 'let' tiene alcance de bloque, mientras que 'var' tiene alcance de función."
+  },
+  {
+    "language": "javascript",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué valor devuelve 'typeof null'?",
+    "options": ["null", "object", "undefined", "boolean"],
+    "answer": "object",
+    "explanation": "'typeof null' devuelve 'object' por una peculiaridad del lenguaje desde sus inicios."
+  },
+  {
+    "language": "javascript",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué método convierte una cadena en un número entero?",
+    "options": ["parseFloat()", "Number()", "parseInt()", "toNumber()"],
+    "answer": "parseInt()",
+    "explanation": "parseInt() convierte una cadena en un número entero."
+  },
+  {
+    "language": "javascript",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué significa NaN en JavaScript?",
+    "options": ["Not a Number", "New assigned Number", "Next available Number", "Null and None"],
+    "answer": "Not a Number",
+    "explanation": "NaN significa 'Not a Number' y aparece cuando una operación matemática falla."
+  },
+  {
+    "language": "javascript",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué método se usa para recorrer todos los elementos de un array?",
+    "options": ["map()", "filter()", "reduce()", "forEach()"],
+    "answer": "forEach()",
+    "explanation": "forEach() ejecuta una función en cada elemento del array."
+  },
+  {
+    "language": "javascript",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué hace el método 'bind()' en una función?",
+    "options": ["Llama a la función", "Copia la función", "Establece el valor de 'this'", "Elimina la función"],
+    "answer": "Establece el valor de 'this'",
+    "explanation": "bind() permite establecer el valor de 'this' para una función."
+  },
+  {
+    "language": "javascript",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el propósito del operador '===' en JavaScript?",
+    "options": ["Compara solo valores", "Compara valores y tipos", "Asigna valores", "Convierte tipos automáticamente"],
+    "answer": "Compara valores y tipos",
+    "explanation": "'===' compara tanto el valor como el tipo de los operandos."
+  },
+  {
+    "language": "javascript",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué estructura permite manejar errores en JavaScript?",
+    "options": ["if...else", "try...catch", "switch", "do...while"],
+    "answer": "try...catch",
+    "explanation": "try...catch se utiliza para capturar y manejar errores en tiempo de ejecución."
+  },
+  {
+    "language": "javascript",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué resultado da '0 == false'?",
+    "options": ["true", "false", "undefined", "Error"],
+    "answer": "true",
+    "explanation": "Con '==', JavaScript convierte tipos antes de comparar, y 0 es igual a false."
+  },
+  {
+    "language": "javascript",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué hace la función setTimeout()?",
+    "options": ["Repite una función indefinidamente", "Ejecuta una función después de cierto tiempo", "Detiene la ejecución del programa", "Cancela una función"],
+    "answer": "Ejecuta una función después de cierto tiempo",
+    "explanation": "setTimeout() ejecuta una función una vez después de un tiempo especificado en milisegundos."
+  },
+  {
+    "language": "javascript",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué símbolo se utiliza para terminar una instrucción en JavaScript?",
+    "options": ["!", ";", ".", ","],
+    "answer": ";",
+    "explanation": "Se recomienda usar punto y coma (;) para terminar instrucciones, aunque no siempre es obligatorio."
+  },
+  {
+    "language": "javascript",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el método correcto para convertir un número a cadena?",
+    "options": ["toString()", "stringify()", "toChar()", "convert()"],
+    "answer": "toString()",
+    "explanation": "El método toString() convierte un número a cadena."
+  },
+  {
+    "language": "javascript",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué hace el método 'push()' en un array?",
+    "options": ["Elimina el último elemento", "Agrega un elemento al final", "Ordena los elementos", "Invierte el array"],
+    "answer": "Agrega un elemento al final",
+    "explanation": "push() agrega uno o más elementos al final de un array."
+  },
+  {
+    "language": "javascript",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué devuelve una función sin valor explícito de retorno?",
+    "options": ["null", "false", "undefined", "0"],
+    "answer": "undefined",
+    "explanation": "Si no se especifica un valor de retorno, una función devuelve undefined por defecto."
+  },
+  {
+    "language": "javascript",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué método se usa para combinar dos arrays?",
+    "options": ["join()", "concat()", "merge()", "append()"],
+    "answer": "concat()",
+    "explanation": "concat() se utiliza para combinar dos o más arrays en uno solo."
   }
+
+
 ]
   
