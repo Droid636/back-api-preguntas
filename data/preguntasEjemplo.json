@@ -22,6 +22,146 @@
   //inicio esmeralda
   //fin esmeralda
   //inicio bryan
+  {
+    "language": "css",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué significa CSS?",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Style System",
+      "Creative Style Sheets",
+      "Color Style System"
+    ],
+    "answer": "Cascading Style Sheets",
+    "explanation": "CSS significa Cascading Style Sheets (Hojas de Estilo en Cascada)."
+  },
+  {
+    "language": "css",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la propiedad CSS para cambiar el tamaño de la fuente?",
+    "options": [
+      "text-size",
+      "font-size",
+      "size",
+      "font-style"
+    ],
+    "answer": "font-size",
+    "explanation": "La propiedad font-size se utiliza para cambiar el tamaño de la fuente en CSS."
+  },
+  {
+    "language": "css",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué hace la propiedad 'margin' en CSS?",
+    "options": [
+      "Define el espacio interno de un elemento",
+      "Define el espacio externo de un elemento",
+      "Define el borde de un elemento",
+      "Define el color de fondo de un elemento"
+    ],
+    "answer": "Define el espacio externo de un elemento",
+    "explanation": "Margin define el espacio externo alrededor de un elemento, creando separación entre elementos."
+  },
+  {
+    "language": "css",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la diferencia entre 'margin' y 'padding'?",
+    "options": [
+      "No hay diferencia, son lo mismo",
+      "Margin es interno, padding es externo",
+      "Margin es externo, padding es interno",
+      "Margin es para texto, padding es para imágenes"
+    ],
+    "answer": "Margin es externo, padding es interno",
+    "explanation": "Margin crea espacio fuera del elemento, mientras que padding crea espacio dentro del elemento."
+  },
+  {
+    "language": "css",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué hace la propiedad 'display: flex'?",
+    "options": [
+      "Hace que el elemento sea invisible",
+      "Convierte el elemento en un contenedor flexible",
+      "Cambia el color del elemento",
+      "Aumenta el tamaño del elemento"
+    ],
+    "answer": "Convierte el elemento en un contenedor flexible",
+    "explanation": "display: flex convierte un elemento en un contenedor flexible, permitiendo un layout más fácil de controlar."
+  },
+  {
+    "language": "css",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué es CSS Grid?",
+    "options": [
+      "Un sistema de diseño basado en filas y columnas",
+      "Un tipo de fuente",
+      "Un método para crear animaciones",
+      "Un sistema de colores"
+    ],
+    "answer": "Un sistema de diseño basado en filas y columnas",
+    "explanation": "CSS Grid es un sistema de diseño bidimensional que permite crear layouts complejos usando filas y columnas."
+  },
+  {
+    "language": "css",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué hace la propiedad 'position: absolute'?",
+    "options": [
+      "Posiciona el elemento de forma estática",
+      "Posiciona el elemento de forma relativa",
+      "Posiciona el elemento de forma absoluta respecto a su contenedor",
+      "Centra el elemento automáticamente"
+    ],
+    "answer": "Posiciona el elemento de forma absoluta respecto a su contenedor",
+    "explanation": "position: absolute posiciona el elemento de forma absoluta respecto a su contenedor posicionado más cercano."
+  },
+  {
+    "language": "css",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué es una media query en CSS?",
+    "options": [
+      "Una consulta a la base de datos",
+      "Una regla que aplica estilos según el tamaño de pantalla",
+      "Un tipo de animación",
+      "Un método para importar fuentes"
+    ],
+    "answer": "Una regla que aplica estilos según el tamaño de pantalla",
+    "explanation": "Las media queries permiten aplicar estilos CSS específicos según el tamaño de pantalla o características del dispositivo."
+  },
+  {
+    "language": "css",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué hace la propiedad 'border-radius'?",
+    "options": [
+      "Cambia el color del borde",
+      "Redondea las esquinas de un elemento",
+      "Aumenta el grosor del borde",
+      "Cambia el estilo del borde"
+    ],
+    "answer": "Redondea las esquinas de un elemento",
+    "explanation": "border-radius permite redondear las esquinas de un elemento, creando bordes curvos."
+  },
+  {
+    "language": "css",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la propiedad CSS para cambiar el color de fondo?",
+    "options": [
+      "color",
+      "background-color",
+      "bg-color",
+      "background"
+    ],
+    "answer": "background-color",
+    "explanation": "La propiedad background-color se utiliza para cambiar el color de fondo de un elemento."
+  }
   //fin bryan
 ]
   
