@@ -1,4 +1,284 @@
 [
+   {
+    "language": "HTML",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué es HTML?",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Style System",
+      "Creative Style Sheets",
+      "Color Style System"
+    ],
+    "answer": "Lenguaje para estructurar contenido web.",
+    "explanation": "HTML define la estructura de las páginas web."
+  },
+  {
+    "language": "HTML",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Para qué sirve la etiqueta <a>?",
+    "options": [
+      "Insertar imágenes",
+      "Crear enlaces (hipervínculos)",
+      "Definir párrafos",
+      "Agregar estilos CSS"
+    ],
+    "answer": "Crear enlaces (hipervínculos).",
+    "explanation": "Permite la navegación entre páginas."
+  },
+  {
+    "language": "HTML",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué etiqueta se utiliza para insertar imágenes?",
+    "options": [
+      "<img>",
+      "<image>",
+      "<picture>",
+      "<src>"
+    ],
+    "answer": "<img>",
+    "explanation": "Etiqueta para insertar imágenes."
+  },
+  {
+    "language": "HTML",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué etiqueta se usa para crear un título principal?",
+    "options": [
+      "<title>",
+      "<h1>",
+      "<header>",
+      "<head>"
+    ],
+    "answer": "<h1>",
+    "explanation": "Define el encabezado principal."
+  },
+  {
+    "language": "HTML",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la etiqueta para párrafos en HTML?",
+    "options": [
+      "<para>",
+      "<text>",
+      "<p>",
+      "<par>"
+    ],
+    "answer": "<p>",
+    "explanation": "Define un párrafo de texto."
+  },
+  {
+    "language": "HTML",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué atributo se usa para definir el enlace en la etiqueta <a>?",
+    "options": [
+      "src",
+      "link",
+      "href",
+      "ref"
+    ],
+    "answer": "href",
+    "explanation": "Indica la URL destino del enlace."
+  },
+  {
+    "language": "HTML",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Cómo se escribe un comentario en HTML?",
+    "options": [
+      "// comentario //",
+      "// comentario",
+      "<!-- comentario -->",
+      "/* comentario */"
+    ],
+    "answer": "<!-- comentario -->",
+    "explanation": "Formato correcto para comentarios."
+  },
+  {
+    "language": "HTML",
+    "level":2,
+    "type": "multiple_choice",
+    "question": "¿Qué etiqueta crea una lista ordenada?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<li>",
+      "<list>"
+    ],
+    "answer": "<ol>",
+    "explanation": "Lista numerada u ordenada."
+  },
+  {
+    "language": "HTML",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué etiqueta crea una lista no ordenada?",
+    "options": [
+      "<ol>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "answer": "<ul>",
+    "explanation": "Lista con viñetas sin orden."
+  },
+  {
+    "language": "HTML",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué función tiene la etiqueta <br>?",
+    "options": [
+      "Insertar un salto de línea",
+      "Crear un enlace",
+      "Insertar una imagen",
+      "Definir un bloque"
+    ],
+    "answer": "Insertar un salto de línea.",
+    "explanation": "Salto de línea dentro de texto."
+  },
+  {
+    "language": "HTML",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Para qué se usa el atributo alt en la etiqueta <img>?",
+    "options": [
+      "Para agregar título a la imagen",
+      "Texto alternativo si la imagen no carga",
+      "Para colocar un enlace",
+      "Para definir el tamaño de la imagen"
+    ],
+    "answer": "Texto alternativo si la imagen no carga.",
+    "explanation": "Importante para accesibilidad."
+  },
+  {
+    "language": "HTML",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué etiqueta se usa para crear un botón en HTML?",
+    "options": [
+      "<button>",
+      "<input>",
+      "<form>",
+      "<btn>"
+    ],
+    "answer": "<button>",
+    "explanation": "Etiqueta para botones."
+  },
+  {
+    "language": "HTML",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Cómo se crea una tabla en HTML?",
+    "options": [
+      "<table>, <tr>, <td>",
+      "<table>, <row>, <cell>",
+      "<tab>, <tr>, <td>",
+      "<table>, <thead>, <tbody>"
+    ],
+    "answer": "<table>, <tr>, <td>",
+    "explanation": "Estructura básica de tablas."
+  },
+  {
+    "language": "HTML",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué etiqueta sirve para insertar un video en HTML?",
+    "options": [
+      "<video>",
+      "<media>",
+      "<movie>",
+      "<embed>"
+    ],
+    "answer": "<video>",
+    "explanation": "Inserta videos en la página."
+  },
+  {
+    "language": "HTML",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué etiqueta se usa para definir un formulario en HTML?",
+    "options": [
+      "<input>",
+      "<form>",
+      "<textarea>",
+      "<submit>"
+    ],
+    "answer": "<form>",
+    "explanation": "Contenedor de controles de formulario."
+  },
+  {
+    "language": "HTML",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la diferencia principal entre <span> y <div>?",
+    "options": [
+      "<span> es un elemento de bloque y <div> en línea",
+      "<div> es un elemento de bloque y <span> en línea",
+      "Ambos son elementos en línea",
+      "Ambos son elementos de bloque"
+    ],
+    "answer": "<div> es bloque y <span> en línea.",
+    "explanation": "Difieren en comportamiento visual."
+  },
+  {
+    "language": "HTML",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué etiqueta se usa para vincular un archivo CSS externo?",
+    "options": [
+      "<script>",
+      "<link>",
+      "<style>",
+      "<css>"
+    ],
+    "answer": "<link>",
+    "explanation": "Usada para enlazar hojas de estilo."
+  },
+  {
+    "language": "HTML",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué etiqueta HTML indica el inicio del documento?",
+    "options": [
+      "<start>",
+      "<html>",
+      "<!DOCTYPE html>",
+      "<head>"
+    ],
+    "answer": "<!DOCTYPE html>",
+    "explanation": "Declara el tipo de documento."
+  },
+  {
+    "language": "HTML",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Para qué se usa la etiqueta <meta> dentro del <head>?",
+    "options": [
+      "Agregar imágenes",
+      "Definir metadata sobre la página",
+      "Insertar estilos",
+      "Crear párrafos"
+    ],
+    "answer": "Definir metadata sobre la página.",
+    "explanation": "Provee información para navegadores y buscadores."
+  },
+  {
+    "language": "HTML",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué etiqueta permite insertar un video de YouTube mediante código embebido?",
+    "options": [
+      "<iframe>",
+      "<embed>",
+      "<video>",
+      "<object>"
+    ],
+    "answer": "<iframe>",
+    "explanation": "Incrusta contenidos externos como videos."
+  },
   {
     "language": "css",
     "level": 1,
