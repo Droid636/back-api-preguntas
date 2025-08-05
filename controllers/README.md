@@ -1,6 +1,6 @@
 # 📚 API de Preguntas - Documentación de Endpoints
 
-Este documento describe todos los endpoints disponibles en el controlador de preguntas (`questionController.js`).
+Este documento describe todos los endpoints disponibles en el controlador de preguntas (`questionController.js`) y introducciones (`introductionController.js`).
 
 ## 🚀 Endpoints Generales
 
@@ -120,7 +120,7 @@ Actualiza una pregunta de CSS (requiere autenticación).
 ### DELETE `/api/questions/css/:id`
 Elimina una pregunta de CSS (requiere autenticación).
 
-## 📄 Endpoints de HTML5
+## �� Endpoints de HTML5
 
 ### GET `/api/questions/html5`
 Obtiene todas las preguntas de HTML5.
@@ -171,9 +171,74 @@ Actualiza una pregunta de React (requiere autenticación).
 ### DELETE `/api/questions/react/:id`
 Elimina una pregunta de React (requiere autenticación).
 
+## 📖 Endpoints de Introducciones
+
+### GET `/api/introductions`
+Obtiene todas las introducciones de los lenguajes.
+
+**Ejemplo:**
+```bash
+GET /api/introductions
+```
+
+### GET `/api/introductions/:language`
+Obtiene la introducción de un lenguaje específico.
+
+**Ejemplo:**
+```bash
+GET /api/introductions/css
+GET /api/introductions/html5
+GET /api/introductions/javascript
+GET /api/introductions/react
+```
+
+### GET `/api/introductions/css`
+Obtiene la introducción específica de CSS.
+
+### GET `/api/introductions/html5`
+Obtiene la introducción específica de HTML5.
+
+### GET `/api/introductions/javascript`
+Obtiene la introducción específica de JavaScript.
+
+### GET `/api/introductions/react`
+Obtiene la introducción específica de React.
+
+### POST `/api/introductions`
+Crea una nueva introducción (requiere autenticación).
+
+**Body:**
+```json
+{
+  "language": "css",
+  "title": "Bienvenido a CSS",
+  "subtitle": "El lenguaje de estilos web",
+  "description": "CSS es el lenguaje de estilos...",
+  "features": ["Control total sobre el diseño", "Responsive design"],
+  "examples": [
+    {
+      "title": "Estilo básico",
+      "description": "Cambiar el color de fondo",
+      "code": "body { background-color: #f0f0f0; }"
+    }
+  ],
+  "difficulty": 1,
+  "estimatedTime": "2-3 semanas",
+  "prerequisites": ["HTML básico"],
+  "icon": "🎨",
+  "color": "#1572b6"
+}
+```
+
+### PUT `/api/introductions/:language`
+Actualiza una introducción (requiere autenticación).
+
+### DELETE `/api/introductions/:language`
+Elimina una introducción (requiere autenticación).
+
 ## 📋 Estructura de Respuesta
 
-### Respuesta Exitosa
+### Respuesta Exitosa - Preguntas
 ```json
 {
   "success": true,
@@ -187,6 +252,35 @@ Elimina una pregunta de React (requiere autenticación).
     "options": ["Opción 1", "Opción 2", "Opción 3", "Opción 4"],
     "answer": "Opción 1",
     "explanation": "Explicación detallada...",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  }
+}
+```
+
+### Respuesta Exitosa - Introducciones
+```json
+{
+  "success": true,
+  "data": {
+    "_id": "64f1a2b3c4d5e6f7g8h9i0j1",
+    "language": "css",
+    "title": "Bienvenido a CSS",
+    "subtitle": "El lenguaje de estilos web",
+    "description": "CSS es el lenguaje de estilos...",
+    "features": ["Control total sobre el diseño", "Responsive design"],
+    "examples": [
+      {
+        "title": "Estilo básico",
+        "description": "Cambiar el color de fondo",
+        "code": "body { background-color: #f0f0f0; }"
+      }
+    ],
+    "difficulty": 1,
+    "estimatedTime": "2-3 semanas",
+    "prerequisites": ["HTML básico"],
+    "icon": "🎨",
+    "color": "#1572b6",
     "createdAt": "2024-01-01T00:00:00.000Z",
     "updatedAt": "2024-01-01T00:00:00.000Z"
   }
@@ -224,12 +318,17 @@ Authorization: Bearer <token>
 
 ### Obtener 5 preguntas aleatorias de CSS nivel 2
 ```bash
-curl -X GET "http://localhost:3000/api/questions/css/random?level=2&limit=5"
+curl -X GET "http://localhost:5000/api/questions/css/random?level=2&limit=5"
+```
+
+### Obtener introducción de CSS
+```bash
+curl -X GET "http://localhost:5000/api/introductions/css"
 ```
 
 ### Crear nueva pregunta de React
 ```bash
-curl -X POST "http://localhost:3000/api/questions/react" \
+curl -X POST "http://localhost:5000/api/questions/react" \
   -H "Authorization: Bearer <token>" \
   -H "Content-Type: application/json" \
   -d '{
@@ -242,9 +341,28 @@ curl -X POST "http://localhost:3000/api/questions/react" \
   }'
 ```
 
+### Crear nueva introducción
+```bash
+curl -X POST "http://localhost:5000/api/introductions" \
+  -H "Authorization: Bearer <token>" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "language": "css",
+    "title": "Bienvenido a CSS",
+    "subtitle": "El lenguaje de estilos web",
+    "description": "CSS es el lenguaje de estilos...",
+    "features": ["Control total sobre el diseño", "Responsive design"],
+    "difficulty": 1,
+    "estimatedTime": "2-3 semanas",
+    "prerequisites": ["HTML básico"],
+    "icon": "🎨",
+    "color": "#1572b6"
+  }'
+```
+
 ### Actualizar pregunta existente
 ```bash
-curl -X PUT "http://localhost:3000/api/questions/css/64f1a2b3c4d5e6f7g8h9i0j1" \
+curl -X PUT "http://localhost:5000/api/questions/css/64f1a2b3c4d5e6f7g8h9i0j1" \
   -H "Authorization: Bearer <token>" \
   -H "Content-Type: application/json" \
   -d '{
@@ -259,11 +377,20 @@ Si no hay preguntas en la base de datos para un lenguaje específico, el sistema
 
 ## 📊 Estadísticas
 
-- **Total de endpoints**: 28
+- **Total de endpoints**: 36
 - **Lenguajes soportados**: 4 (CSS, HTML5, JavaScript, React)
 - **Métodos HTTP**: GET, POST, PUT, DELETE
 - **Niveles de dificultad**: 3 (1, 2, 3)
 - **Tipos de pregunta**: multiple_choice
+- **Endpoints de introducciones**: 8
+
+## 🚀 Scripts de Población
+
+Para poblar la base de datos con introducciones por defecto:
+
+```bash
+node scripts/seedIntroductions.js
+```
 
 ---
 
